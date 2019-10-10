@@ -1,0 +1,19 @@
+<div class=around>
+<h1> NEM FAUCET <h1>
+<p></p>
+</div>
+{{#if error}} <span> {{error}} </span>{{/if}}  
+<form action="/" method="post">
+
+        <div className= "form-group" >
+           <input
+            class="form-control"
+            name="id"
+            minLength="40"
+            maxLength="40"
+            placeholder="NEM wallet address"
+			/>
+          </div>
+
+          <input type="submit" class='btn btn-primary' value="Give me 10 XEM!"> 
+        </form>
